@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing [SCSS + BEM]</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <nav class="nav ">
+        <a>Something New</a>
+        <div></div>
+        <div class="container">
+            <div class="nav__row">
+                <div class="logo">
+                    <img class="logo__img" src="./img/icons/logo.svg" alt="Logo">
+                    <span>CutSpace</span>
+                </div>
+                <div class="navigation-list">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Find space</a></li>
+                        <li><a href="#">Share space</a></li>
+                        <li><a href="#">Promote space</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header ">
+        <div class="container">
+            <div class="header__row">
+                <div class="haeder__text">
+                    <h1 class="header__title">Find your custom matched commercial real estate space.</h1>
+                    <p>In oculis quidem exercitus quid ex ea consequatur? autem vel eum fugiat, quo pertineant ero tibique</p>
+
+                    <form action="" class="header__form form">
+                        <label class="form__label">
+                            <input type="text" class="form__input" placeholder="Your email address">
+                            <button class="form_button button">Subscribe</button>
+                        </label>
+                    </form>
+                </div>
+                <div class="header__image">
+                    <img src="./img/header/01.png" alt="Real estate space">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="clients ">
+        <div class="container">
+            <div class="clients__row">
+                <img src="./img/clients/01.svg" alt="Logo">
+                <img src="./img/clients/02.svg" alt="Logo">
+                <img src="./img/clients/03.svg" alt="Logo">
+                <img src="./img/clients/04.svg" alt="Logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="objects">
+        <div class="container container--fluid container--no-padding">
+            <div class="objects__row">
+
+                <div class="objects_img">
+                    <div class="img-card img-card__rounded">
+                        <img src="./img/cards/01.png" class="img-card__img" alt="Image">
+                    </div>
+
+                    <div class="img-card">
+                        <img src="./img/cards/02.png" class="img-card__img" alt="Image">
+
+                        <div class="img-card__info">
+                            <div class="card-info">
+                                <div class="card-info__icon">
+                                    <img src="./img/icons/building.svg" alt="building">
+                                </div>
+                                <div class="card-info__text">
+                                    <h3 class="card-info__title">Twelve West Lake</h3>
+                                    <p>Space for up to 150 people</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="objects__text">
+                    <h2 class="objects__title title">We provide best space for you!</h2>
+
+                    <p>Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex ea quid est et via procedat oratio quaerimus.</p>
+                    <p>quid aut ad id omnia referri oporteat, ipsum autem nusquam hoc epicurus in ea commodi consequatur?</p>
+
+                    <a href="#!" class="objects__button button">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
