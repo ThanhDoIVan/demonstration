@@ -3,6 +3,7 @@ console.log("Yo, ", username);
 
 // Randomize
 
+console.log(123);
 
 let randomNum;
 
